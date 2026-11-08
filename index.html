@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="B&J Digital Studio creates thoughtful websites, digital invitations, and custom online experiences.">
+  <title>B&J Digital Studio | Web Design & Digital Experiences</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="B and J Digital Studio home">
+      <span class="brand-mark">B<span>&</span>J</span>
+      <span class="brand-name">DIGITAL STUDIO</span>
+    </a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="main-nav" id="mainNav">
+      <a href="#work">Our Work</a>
+      <a href="#services">Services</a>
+      <a href="#about">About Us</a>
+      <a class="nav-contact" href="#contact">Let's Talk <span>↗</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section-wrap" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="eyebrow-line"></span> A CREATIVE DIGITAL STUDIO</p>
+        <h1>Good ideas deserve a <em>beautiful</em> place online.</h1>
+        <p class="hero-subtitle">Web Design &amp; Digital Experiences</p>
+        <p class="hero-description">We create thoughtful, easy-to-use websites that bring your ideas, celebrations, and businesses to life.</p>
+        <div class="hero-actions">
+          <a class="button button-dark" href="#work">Explore our work <span>↗</span></a>
+          <a class="text-link" href="#contact">Have a project in mind?</a>
+        </div>
+        <div class="hero-note"><span class="note-dot"></span> Made with care by Bernadette &amp; James</div>
+      </div>
+      <div class="hero-art" aria-label="Decorative website preview">
+        <div class="art-orbit orbit-one"></div>
+        <div class="art-orbit orbit-two"></div>
+        <div class="hero-card hero-card-back">
+          <span class="mini-label">A LITTLE SOMETHING</span>
+          <span class="back-star">✳</span>
+          <span class="back-script">made for you</span>
+        </div>
+        <div class="hero-card hero-card-front">
+          <div class="preview-top"><span>YOUR NEXT CHAPTER</span><span>✳</span></div>
+          <div class="preview-flower">✳</div>
+          <p class="preview-kicker">A DIGITAL EXPERIENCE</p>
+          <h2>Made to<br><em>feel special.</em></h2>
+          <div class="preview-bottom"><span>DESIGNED WITH INTENTION</span><span>✦</span></div>
+        </div>
+        <div class="floating-sticker sticker-one">ideas<br>into pixels <span>✦</span></div>
+        <div class="floating-sticker sticker-two"><span>✳</span> your story,<br>your style</div>
+      </div>
+    </section>
+
+    <section class="intro-band">
+      <p>CREATIVE THINKING <span>✳</span> PURPOSEFUL DESIGN <span>✳</span> PERSONAL TOUCH <span>✳</span> DIGITAL POSSIBILITIES</p>
+    </section>
+
+    <section class="work-section section-wrap" id="work">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">A FEW THINGS WE'VE MADE</p>
+          <h2>Our selected <em>work.</em></h2>
+        </div>
+        <p class="heading-description">Every project starts with an idea. Here are a few ways we can turn yours into something people can experience.</p>
+      </div>
+      <div class="filter-row" aria-label="Filter projects">
+        <button class="filter-button active" data-filter="all">All projects</button>
+        <button class="filter-button" data-filter="invitation">Invitations</button>
+        <button class="filter-button" data-filter="business">Websites</button>
+        <button class="filter-button" data-filter="tools">Digital tools</button>
+      </div>
+      <div class="project-grid" id="projectGrid">
+        <!-- Project cards are added by script.js -->
+      </div>
+    </section>
+
+    <section class="services-section" id="services">
+      <div class="section-wrap">
+        <div class="section-heading services-heading">
+          <div>
+            <p class="eyebrow">WHAT WE CAN CREATE TOGETHER</p>
+            <h2>Small details. <em>Big feelings.</em></h2>
+          </div>
+          <p class="heading-description">Whether you need a page for a special day or a website for your business, let's make it feel like you.</p>
+        </div>
+        <div class="service-grid">
+          <article class="service-card">
+            <span class="service-number">01</span>
+            <div class="service-icon">✳</div>
+            <h3>Digital Invitations</h3>
+            <p>Personalized wedding, birthday, debut, anniversary, and event invitation websites.</p>
+            <a href="#contact" class="service-link">Let's plan it <span>↗</span></a>
+          </article>
+          <article class="service-card">
+            <span class="service-number">02</span>
+            <div class="service-icon">⌘</div>
+            <h3>Business Websites</h3>
+            <p>Clean, responsive websites that introduce your brand, showcase your services, and help customers find you.</p>
+            <a href="#contact" class="service-link">Build your presence <span>↗</span></a>
+          </article>
+        <article class="service-card">
+           <span class="service-number">03</span>
+           <div class="service-icon">◇</div>
+           <h3>Digital ID & QR Systems</h3>
+          <p>
+              A school project developed to support digital student
+              identification and QR-based attendance using PHP and MySQL.
+          </p>
+         <a
+            href="https://ptcdigitalid.free.nf/landingpage.php?i=3"
+            class="service-link"
+            target="_blank"
+             rel="noopener noreferrer"
+          >
+            View school project <span>↗</span>
+         </a>
+        </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="about-section section-wrap" id="about">
+      <div class="about-art">
+        <div class="about-shape shape-large"></div>
+        <div class="about-shape shape-small"></div>
+        <div class="about-stamp">B<span>&</span>J<br><small>CREATIVE PARTNERS</small></div>
+        <p class="about-art-note">A little creativity<br>goes a long way.</p>
+      </div>
+      <div class="about-copy">
+        <p class="eyebrow">A TWO-PERSON CREATIVE TEAM</p>
+        <h2>Different minds.<br><em>One shared vision.</em></h2>
+        <p>We're Bernadette and James, the people behind B&amp;J Digital Studio. We enjoy turning ideas into useful, thoughtful, and memorable online experiences.</p>
+        <p>Our approach is simple: listen to what you need, design with purpose, and build a website that works well on both phones and computers.</p>
+        <a class="button button-outline" href="#contact">Get to know us through a project <span>↗</span></a>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contact">
+      <div class="contact-inner section-wrap">
+        <div>
+          <p class="eyebrow">HAVE AN IDEA? LET'S HEAR IT.</p>
+          <h2>Let's make something<br><em>meaningful.</em></h2>
+          <p class="contact-description">Tell us what you're imagining. Whether it's a celebration, a business, or a new idea, we'd love to hear about it.</p>
+        </div>
+        <div class="contact-card">
+          <p class="contact-card-label">START A CONVERSATION</p>
+          <h3>What's on your mind?</h3>
+          <p>Send us a message with a few details about your project and we'll take it from there.</p>
+          <a
+             class="button button-light"
+             id="emailLink"
+              href="https://mail.google.com/mail/?view=cm&fs=1&to=cabantogbernadette061@gmail.com&su=Project%20inquiry%20-%20B%26J%20Digital%20Studio"
+              target="_blank"
+              rel="noopener noreferrer"
+             >
+                Email us <span>↗</span>
+          </a>
+          <a class="contact-social" id="facebookLink" href="https://www.facebook.com/bernadette.cabantog.7/" target="_blank" rel="noreferrer">Find us on Facebook <span>↗</span></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a class="brand footer-brand" href="#home">
+      <span class="brand-mark">B<span>&</span>J</span>
+      <span class="brand-name">DIGITAL STUDIO</span>
+    </a>
+    <p>Creative ideas. Digital experiences.</p>
+    <span class="copyright">© <span id="currentYear"></span> B&amp;J Digital Studio</span>
+  </footer>
+</body>
+</html>
